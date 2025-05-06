@@ -28,47 +28,83 @@
 				color: #FFFF00;
 			}
 			:root {
-  --width:250px;
-  --height:calc(var(--width) / 2);
-}
+			  --width:250px;
+			  --height:calc(var(--width) / 2);
+			}
 
-.ball {
-  width: var(--width);
-  height: var(--height);
-  background: url('../dvd.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position:absolute;
-
-  animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
-}
-
-@keyframes bounce {
-  0% {
-    top:0;
-  }
-  48% {
-  }
-  50% {
-    top: calc(100% - var(--height));
-  }
-  52% {
-  }
-  100% {
-    top: 0;
-  }
-}
-
-@keyframes toRight {
-
-  0% {
-    left: 0;
-  }
-
-  100% {
-    left: calc(100% - var(--width));
-  }
-}
+			.ball {
+			  	width: var(--width);
+			  	height: var(--height);
+			  	background: url('../dvd.png');
+			  	background-size: contain;
+			  	background-repeat: no-repeat;
+				position:absolute;
+				animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
+				}
+	
+				@keyframes bounce {
+				  0% {
+				    top:0;
+				  }
+				  48% {
+				  }
+				  50% {
+				    top: calc(100% - var(--height));
+				  }
+				  52% {
+				  }
+				  100% {
+				    top: 0;
+				  }
+				}
+				
+				@keyframes toRight {
+				
+				  0% {
+				    left: 0;
+				  }
+				
+				  100% {
+				    left: calc(100% - var(--width));
+				  }
+				}
+			.ball2 {
+			  	width: var(--width);
+			  	height: var(--height);
+			  	background: url('../dvd.png');
+			  	background-size: contain;
+			  	background-repeat: no-repeat;
+				position:absolute;
+				animation: toRight linear 3.4s infinite alternate, bounce linear 8.5s infinite alternate;
+				}
+	
+				@keyframes bounce {
+				  0% {
+				    top:0;
+				  }
+				  48% {
+				  }
+				  50% {
+				    top: calc(100% - var(--height));
+				  }
+				  52% {
+				  }
+				  100% {
+				    top: 0;
+				  }
+				}
+				
+				@keyframes toRight {
+				
+				  0% {
+				    left: 0;
+				  }
+				
+				  100% {
+				    left: calc(100% - var(--width));
+				  }
+				}
+						
 		</style>
 	</head>
 	<body>
@@ -85,5 +121,6 @@
 		</ul>
 		<h4>homosexual behavior by trev and nico (not saying our last names because the opps will find us fr)</h4>
 		<a href="https://www.youtube.com/shorts/49tyQ-OAXfQ"><img class="ball" src="https://media.tenor.com/F--Tf8MWfIkAAAAj/yap-dollar-yap-dollar.gif"></a>
+		<img class="ball2" src="https://ih1.redbubble.net/image.4599773207.4670/raf,360x360,075,t,fafafa:ca443f4786.jpg">
 	</body>
 </html>
